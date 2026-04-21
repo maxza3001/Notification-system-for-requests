@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ระบบบำเหน็จค้ำประกัน</title>
+  <style>
+    body, html { 
+      margin: 0; 
+      padding: 0; 
+      height: 100%; 
+      overflow: hidden; /* ป้องกันสกอร์บาร์ซ้อนกัน */
+    }
+    /* ตั้งค่า Iframe ให้ดันแถบ Google ขึ้นไปซ่อนด้านบน -28px */
+    iframe { 
+      width: 100%; 
+      height: calc(100% + 28px); 
+      border: none; 
+      margin-top: -28px; 
+    }
+  </style>
+</head>
+<body>
+  <iframe src="https://script.google.com/macros/s/AKfycbw14AYb2sATYnXn7kubIGZOoXdxWfPG5040LZsGpV_tZ5DybAM6ZbyKXlVJoRnaXvpn/exec"></iframe>
+</body>
+</html>
