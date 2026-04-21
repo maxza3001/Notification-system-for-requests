@@ -6,23 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ระบบบำเหน็จค้ำประกัน</title>
     <style>
-        body,
-        html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            overflow: hidden;
-            /* ป้องกันสกอร์บาร์ซ้อนกัน */
-        }
-
-        /* ตั้งค่า Iframe ให้ดันแถบ Google ขึ้นไปซ่อนด้านบน -28px */
-        iframe {
-            width: 100%;
-            height: calc(100% + 28px);
-            border: none;
-            margin-top: -28px;
-        }
-    </style>
+    body, html { 
+      margin: 0; 
+      padding: 0; 
+      height: 100%; 
+      overflow: hidden; 
+    }
+    iframe { 
+      width: 100%; 
+      /* เปลี่ยนจาก -28px เป็น -24px หรือ 0 หากแถบ Google ไม่ขึ้นโชว์อยู่แล้ว */
+      margin-top: -24px; 
+      height: calc(100% + 24px); 
+      border: none; 
+    }
+  </style>
 </head>
 
 <body>
